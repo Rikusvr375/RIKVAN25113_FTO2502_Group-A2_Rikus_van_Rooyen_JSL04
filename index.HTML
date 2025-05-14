@@ -88,19 +88,25 @@
           <!-- Overlay-display block -->
           <div id="overlay" class="hidden">
             <div class="overlay-content">
+              <div class="task-bar-top">
+                <h3 class="task-heading">Task</h3>
+                <button class="close-button"></button>
+              </div>
+              <p class="title">Title</p>
               <input class="task-title" placeholder="Enter Task Title" type="text">
-              <input class="task-description" placeholder="Enter Task Description" type="message">
-              <p class="current-status">Current Status</p>
+              <p class="description">Description</p>
+              <textarea class="task-description" placeholder="Enter Task Description" type="message"></textarea>
+              <p class="current-status">Status</p>
               <select class="status" name="status">
                 <option value="todo">todo</option>
                 <option value="doing">doing</option>
                 <option value="done">done</option>
               </select>
-                <div class="changes">
+                <!-- <div class="changes">
                   <button class="save-changes">Save Changes</button>
                   <button class="cancel">Cancel</button>
                   <button class="delete-task">Delete Task</button>
-                </div>
+                </div> -->
             </div>
           </div>
         </main>
