@@ -306,6 +306,8 @@
     }
   }
 
+/****** Overlay content ******/
+
   /* #overlay.hidden {
     display: none;
   } */
@@ -331,6 +333,8 @@
   width: 600px;
   height: 400px;
 }
+
+/* Input fields */
 
 .task-title {
   margin: 20px;
@@ -359,13 +363,15 @@
 
 }
 
+/* Buttons section for changes made */
+
 .changes {
   padding: 10px;
   display: flex;
   justify-content: space-between;
 }
 .save-changes {
-  background: green;
+  background: #2BBBAD;
   border-radius: 50px;
   border-width: 0px;
   margin-left: 10px;
@@ -377,7 +383,7 @@
 }
 
 .cancel {
-  background: yellow;
+  background: #F4C542;
   border-radius: 50px;
   border-width: 0px;
   color: white;
@@ -388,7 +394,7 @@
 }
 
 .delete-task {
-  background: red;
+  background: #EE5253;
   border-radius: 50px;
   border-width: 0px;
   margin-right: 10px;
