@@ -201,6 +201,7 @@
     margin-bottom: 20px;
     font-size: 0.9375rem;
     font-weight: bold;
+    border: none;
   }
   
   /* ===============
@@ -308,9 +309,9 @@
 
 /****** Overlay content ******/
 
-  /* #overlay.hidden {
+  #overlay.hidden {
     display: none;
-  } */
+  }
 
   #overlay {  
   position: fixed; 
