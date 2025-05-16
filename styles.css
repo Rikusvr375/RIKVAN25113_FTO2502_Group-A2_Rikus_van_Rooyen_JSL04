@@ -430,3 +430,20 @@
   border-radius: 4px;
   font-size: 13px;
 }
+
+/* Mobile view for overlay */
+
+@media (max-width: 576px) {
+    .overlay-content {
+      width: 343px;
+    }
+    .task-title {
+      width: 295px;
+    }
+    .task-description {
+      width: 295px;
+    }
+    .status {
+      width: 295px;
+    }
+  }

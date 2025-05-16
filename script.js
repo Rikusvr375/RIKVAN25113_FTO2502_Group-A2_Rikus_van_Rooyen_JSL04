@@ -13,7 +13,6 @@ document.querySelectorAll('.task-div').forEach(button => {
     taskTitleInput.value = taskText;
     statusSelect.value = columnStatus;
 
-   
     overlay.classList.remove('hidden');
   });
 });
