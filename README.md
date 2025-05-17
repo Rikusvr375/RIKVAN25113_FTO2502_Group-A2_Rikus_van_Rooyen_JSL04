@@ -22,3 +22,7 @@ This project is a simple overlay-based task manager with preloaded tasks divided
 ## 🎯 Expected Outcome
 
 A clean and functional task manager with an intuitive overlay feature. Users should be able to easily view and manage their tasks with a smooth, responsive interface across all devices.
+
+## Expected Outcome Screenshot
+
+![Overlay Screenshot](./assets/overlay-example.png)
